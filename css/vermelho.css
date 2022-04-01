@@ -1,0 +1,122 @@
+.vermelho__div {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background: #cf0e0e;
+    
+    text-align: left;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.vermelho__div h1 {
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 20px;
+    text-align: left;
+
+    color: rgb(236, 236, 236);
+    font-weight: bold;
+    
+    text-shadow: -1px 1px 1px rgb(0, 0, 0);
+}
+
+.vermelho__div p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.vermelho--div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 30px;
+    padding-left: 8%;
+}
+
+.vermelho--div1 .alert {
+    width: 100%;
+    text-align: center;
+    padding-left: 10%;
+        
+    text-shadow: -2px 1px 1px rgb(255, 255, 255);
+}
+
+.vermelho--div1 .accordion {
+    width: 100%;
+    height: 100%;
+}
+
+.vermelho--div2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100%;
+
+    padding: 30px;
+    padding-right: 8%;
+}
+.vermelho--div2 iframe {
+    border: 3px groove #FFFF;
+    border-radius: 10px 10px 10px 10px;
+    filter: drop-shadow(2px 4px 8px rgb(255, 255, 255));
+}
+
+
+
+@media screen and (max-width: 460px){
+    .vermelho__div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .vermelho--div1 {
+        width: 100%;
+        height: 100%;
+        padding-left: 5%;
+    }
+    .vermelho--div2 iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .vermelho--div2 {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1260px){
+    .vermelho__div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .vermelho--div1 {
+        width: 100%;
+        height: 100%;
+        padding-left: 5%;
+    }
+    .vermelho--div1 iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .vermelho--div2 {
+        width: 100%;
+        height: 100%;
+    }
+}

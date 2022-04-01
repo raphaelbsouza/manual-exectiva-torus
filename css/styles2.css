@@ -1,0 +1,175 @@
+.principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgb(49, 6, 97);
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.div1--1 {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: rgb(255, 255, 255);
+}
+.div1--2 {
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background: rgb(255, 255, 255);
+    border-radius: 3px solid rgb(124, 15, 15);
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.div2--1 {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: rgb(255, 255, 255);
+}
+.div2--2 {
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    background: rgb(180, 32, 32);
+}
+
+.div3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+
+    background: rgb(255, 255, 255);
+    justify-content: space-around;
+}
+
+.div3--1 {
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div3--2 {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 50px;
+
+}
+
+.div4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    justify-content: space-around;
+}
+
+.div4--1 {
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.div4--2 {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.div5 {
+    display: flex;
+    flex-direction: row;
+ 
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(210, 231, 166);
+    justify-content: space-around;
+}
+
+.div5--1 {
+    width: 60%;
+    height: 100%;
+    background: rgb(112, 6, 77);
+}
+.div5--2 {
+    width: 60%;
+    height: 100%;
+    background: rgb(156, 12, 132);
+}
+
+.div6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(210, 231, 166);
+    justify-content: space-around;
+}
+
+.div6--1 {
+    width: 60%;
+    height: 100%;
+    background: rgb(59, 196, 32);
+}
+.div6--2 {
+    width: 60%;
+    height: 100%;
+    background: rgb(55, 9, 82);
+}

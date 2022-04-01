@@ -1,0 +1,405 @@
+.amarelo__div {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #eead2d;
+}
+
+.accordion-header .accordion-button:not(.collapsed) {
+    background-color: #615e5e;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button:not(.collapsed) { 
+    color: #FFFF;
+}
+
+
+.amarelo__div h1 {
+    color : rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+}
+
+.amarelo__div p {
+    color : rgb(2, 0, 0);
+    font-size: 15px;
+    text-align: left;
+}
+
+.amarelo__div li {
+    color : rgb(2, 0, 0);
+    font-size: 15px;
+    text-align: left;
+}
+
+.amarelo--div1 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.amarelo--div1--1 {
+    width: 45%;
+    height: 100%;
+
+    padding-right: 10%;
+}
+
+.amarelo--div1--1 .alert {
+    background: rgb(218, 208, 74);
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+.amarelo--div1--2 {
+    display: none;
+
+    width: 10%;
+    height: 100%;
+}
+
+.amarelo--div1--3 {
+    width: 45%;
+    height: 100%;
+ 
+    color: white;
+}
+
+.amarelo--div1--3 iframe {
+    border: 3px groove #FFFF;
+    border-radius: 10px 10px 10px 10px;
+    filter: drop-shadow(2px 4px 8px rgb(255, 255, 255));
+}
+
+.amarelo--div2 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.amarelo--div2--1 {
+    width: 45%;
+    height: 100%;
+
+    padding-right: 10%;
+}
+
+.amarelo__div .alert {
+    background: rgb(218, 208, 74);
+    border: none;
+    color: rgb(0, 0, 0);
+    
+    text-shadow: -2px 1px 1px rgb(255, 255, 255);
+}
+
+.amarelo--div2--2 {
+    display: none;
+
+    width: 10%;
+    height: 100%;
+}
+
+.amarelo--div2--3 {
+    width: 45%;
+    height: 100%;
+
+    color: white;
+}
+
+.amarelo--div2--3 iframe {
+    border: 3px groove #FFFF;
+    border-radius: 10px 10px 10px 10px;
+    filter: drop-shadow(2px 4px 8px rgb(255, 255, 255));
+}
+
+.amarelo--div3 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.amarelo--div3--1 {
+    width: 45%;
+    height: 100%;
+
+    padding-right: 10%;
+}
+.amarelo--div3--1 .alert {
+    background: rgb(218, 208, 74);
+    border: none;
+    color: rgb(0, 0, 0);
+}
+.amarelo--div3--2 {
+    display: none;
+
+    width: 10%;
+    height: 100%;
+}
+
+.amarelo--div3--3 {
+    width: 45%;
+    height: 100%;
+
+    color: white;
+}
+
+.amarelo--div3--3 iframe {
+    border: 3px groove #FFFF;
+    border-radius: 10px 10px 10px 10px;
+    filter: drop-shadow(2px 4px 8px rgb(255, 255, 255));
+}
+
+.linhaamarelo--1 {
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+.linhaamarelo--2 {
+    width: 100%;
+    height: 2px;
+    background: #eead2d;
+    color: #eead2d;
+}
+
+.linhaamarelo--3 {
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 460px)
+{
+    .amarelo__div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .amarelo--div1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .amarelo--div1--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+
+    .amarelo--div1--2 {
+        display: none;
+    }
+
+    .amarelo--div1--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .amarelo--div1--3 iframe {
+        width: 100%;
+        height: 300px;
+
+        padding-left: 0px;
+    }
+
+    .amarelo--div2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .amarelo--div2--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .amarelo--div2--2 {
+        display: none;
+    }
+
+    .amarelo--div2--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .amarelo--div2--3 iframe {
+        width: 100%;
+        height: 300px;
+
+        padding-left: 0px;
+    }
+
+    .amarelo--div3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .amarelo--div3--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .amarelo--div3--2 {
+        display: none;
+    }
+
+    .amarelo--div3--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .amarelo--div3--3 iframe {
+        width: 100%;
+        height: 300px;
+
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1260px)
+{
+    .amarelo__div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .amarelo--div1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .amarelo--div1--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-bottom: 30px;
+        padding-right: 0px;
+    }
+
+    .amarelo--div1--2 {
+        display: none;
+    }
+
+    .amarelo--div1--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .amarelo--div1--3 iframe {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .amarelo--div2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .amarelo--div2--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+
+    .amarelo--div2--2 {
+        display: none;
+    }
+
+    .amarelo--div2--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .amarelo--div2--3 iframe {
+        width: 100%;
+        height: 300px;
+
+        padding-left: 0px;
+    }
+
+    .amarelo--div3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .amarelo--div3--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+
+    .amarelo--div3--2 {
+        display: none;
+    }
+
+    .amarelo--div3--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .amarelo--div3--3 iframe {
+        width: 100%;
+        height: 300px;
+
+        padding-left: 0px;
+    }
+}

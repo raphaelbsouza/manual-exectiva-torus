@@ -1,0 +1,395 @@
+.azul__div {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #42719a;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-primary {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+    background-color: #0988f0;
+    border-color: #FFF0;
+    
+    color: #FFFF;
+    text-shadow: -2px 1px 1px rgb(21, 21, 49);
+}
+
+.azul__div h1 {
+    color : rgb(255, 254, 254);
+    font-size: 18px;
+    text-align: left;
+    text-shadow: -1px 1px 1px #FFF0;
+}
+
+.azul__div p {
+    color : rgb(2, 0, 0);
+    font-size: 15px;
+    text-align: left;
+    text-shadow: -1px 1px 1px #FFFF;
+}
+
+.azul__div li {
+    color : rgb(2, 0, 0);
+    font-size: 15px;
+    text-align: left;
+}
+
+.azul--div1 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px;
+    padding-left: 10%:
+}
+
+.azul--div1--1 {
+    width: 50%;
+    height: 100%;
+
+    padding-left: 10%;
+}
+
+.azul--div1--2 {
+    display: none;
+
+    width: 10%;
+    height: 100%;
+}
+
+.azul--div1--3 {
+    width: 45%;
+    height: 100%;
+ 
+    color: white;
+}
+
+.azul--div1--3 iframe {
+    border: 3px groove #FFFF;
+    border-radius: 10px 10px 10px 10px;
+    filter: drop-shadow(2px 4px 8px rgb(255, 255, 255));
+}
+
+.azul--div2 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.azul--div2--1 {
+    width: 50%;
+    height: 100%;
+
+    padding-left: 10%;
+}
+
+.azul--div2--2 {
+    display: none;
+
+    width: 10%;
+    height: 100%;
+}
+
+.azul--div2--3 {
+    width: 45%;
+    height: 100%;
+
+    color: white;
+}
+
+.azul--div2--3 iframe {
+    border: 3px groove #FFFF;
+    border-radius: 10px 10px 10px 10px;
+    filter: drop-shadow(2px 4px 8px rgb(255, 255, 255));
+}
+
+.azul--div3 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.azul--div3--1 {
+    width: 50%;
+    height: 100%;
+
+    padding-left: 10%;
+}
+
+
+
+.azul--div3--2 {
+    display: none;
+
+    width: 10%;
+    height: 100%;
+}
+
+.azul--div3--3 {
+    width: 45%;
+    height: 100%;
+
+    color: white;
+}
+
+.azul--div3--3 iframe {
+    border: 3px groove #FFFF;
+    border-radius: 10px 10px 10px 10px;
+    filter: drop-shadow(2px 4px 8px rgb(255, 255, 255));
+}
+.linhaazul--1 {
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+.linhaazul--2 {
+    width: 100%;
+    height: 2px;
+    background: #42719a;
+    color: #42719a;
+}
+
+.linhaazul--3 {
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 460px)
+{
+    .azul__div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .azul--div1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .azul--div1--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .azul--div1--2 {
+        display: none;
+    }
+
+    .azul--div1--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .azul--div1--3 iframe {
+        width: 100%;
+        height: 300px;
+
+        padding-left: 0px;
+    }
+
+    .azul--div2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .azul--div2--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .azul--div2--2 {
+        display: none;
+    }
+
+    .azul--div2--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .azul--div2--3 iframe {
+        width: 100%;
+        height: 300px;
+
+        padding-left: 0px;
+    }
+
+    .azul--div3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .azul--div3--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .azul--div3--2 {
+        display: none;
+    }
+
+    .azul--div3--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .azul--div3--3 iframe {
+        width: 100%;
+        height: 300px;
+
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1260px)
+{
+    .azul__div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .azul--div1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .azul--div1--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+
+    .azul--div1--2 {
+        display: none;
+    }
+
+    .azul--div1--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .azul--div1--3 iframe {
+        width: 100%;
+        height: 300px;
+
+        padding-left: 0px;
+    }
+
+    .azul--div2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .azul--div2--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+
+    .azul--div2--2 {
+        display: none;
+    }
+
+    .azul--div2--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .azul--div2--3 iframe {
+        width: 100%;
+        height: 300px;
+
+        padding-left: 0px;
+    }
+
+    .azul--div3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .azul--div3--1 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+
+    .azul--div3--2 {
+        display: none;
+    }
+
+    .azul--div3--3 {
+        width: 100%;
+        height: 100%;
+
+        padding-left: 0px;
+    }
+
+    .azul--div3--3 iframe {
+        width: 100%;
+        height: 300px;
+
+        padding-left: 0px;
+    }
+}
